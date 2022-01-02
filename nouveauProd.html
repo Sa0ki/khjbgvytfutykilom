@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouveau produit</title>
+</head>
+<body>
+
+    <form action = 'ajouter.php' method = 'post'>
+        <fieldset>
+            <legend>Nouveau Produit</legend>
+
+            <table>
+                <tr>
+                    <td>Réference:</td>
+                    <td><input type = 'text' name = 'reference'></td>
+                </tr>
+                <tr>
+                    <td>Désignation:</td>
+                    <td><input type = 'text' name = 'designation'></td>
+                </tr>
+                <tr>
+                    <td>Prix Unitaire:</td>
+                    <td><input type = 'number' name = 'prix_unitaire'></td>
+                </tr>
+                <tr>
+                    <td>Quantité:</td>
+                    <td><input type = 'number' name = 'quantite'></td>
+                </tr>
+                <tr>
+                    <td><input type = 'submit' value = 'Enregistrer'></td>
+                    <td><input type = 'reset' value = 'Annuler'></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
